@@ -16,6 +16,7 @@ func TestTCPTransport(t *testing.T) {
 	}
 
 	tr := NewTCPTransport(tcpOpts)
+
 	// Port
 	assert.Equal(t, tr.ListenAddr, listenAddr)
 
